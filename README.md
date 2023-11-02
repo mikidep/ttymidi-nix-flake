@@ -4,10 +4,8 @@ Nix flake with a derivation for [ttyMIDI](https://github.com/robelix/hard-dj/tre
 
 ## Usage
 
-So far I've only ever used this in a Nix shell. So, in the cloned repo directory:
-
 ```bash
-$ nix shell
+$ nix shell github:mikidep/ttymidi-nix-flake
 $ ttymidi --usage
 Usage: ttymidi [-pqv?V] [-b BAUD] [-n NAME] [-s DEV] [--baudrate=BAUD]
             [--name=NAME] [--printonly] [--quiet] [--serialdevice=DEV]
